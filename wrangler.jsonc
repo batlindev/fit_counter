@@ -1,0 +1,10 @@
+{
+  // Statyczny deploy SPA na Cloudflare Workers Static Assets.
+  // Brak "main" = brak kodu Workera, serwujemy pliki z ./dist.
+  "name": "fit-counter",
+  "compatibility_date": "2024-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

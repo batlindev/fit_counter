@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn *)",
+      "Bash(java *)",
+      "Bash(git pull *)",
+      "Bash(git tag *)",
+      "Bash(gh run *)",
+      "Bash(gh workflow *)",
+      "Bash(unzip -l target/demo-1.0-SNAPSHOT.jar)",
+      "Bash(grep -iE \"natives|\\\\.so$|\\\\.dll$|\\\\.dylib$\")",
+      "Edit(/.claude/skills/tak/**)",
+      "Bash(break)",
+      "Bash(export DISPLAY=:0)",
+      "Bash(command -v xdotool)",
+      "Bash(echo \"NO xdotool\")",
+      "Bash(pgrep -f \"exec.mainClass\\\\|exec:java\\\\|com.example.Main\")",
+      "Bash(echo \"app still running\")",
+      "Bash(export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 DISPLAY=:0)",
+      "Bash(echo \"app launched, waiting for hook\")",
+      "Bash(seq 1 30)",
+      "Bash(grep -q \"GlobalStopHotkey] Globalny\" /tmp/bear_run.log)",
+      "Bash(sleep 1)",
+      "Bash(echo \"hook up\")",
+      "Bash(cd /home/batlin/doc/bear)",
+      "Bash(pkill -f \"exec:java|com.example.Main\")",
+      "Bash(export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64)",
+      "Bash(update-alternatives --list java)",
+      "Bash(firefox --version)",
+      "Bash(getcap /usr/lib/snapd/snap-confine)",
+      "Bash(firefox)",
+      "Bash(javac -version)",
+      "Read(//var/lib/dkms/virtualbox/7.0.16/build/**)",
+      "Read(//dev/**)",
+      "Bash(lsmod)",
+      "Read(//proc/**)",
+      "Bash(ps -o pid,etime,cmd -p 48298)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}

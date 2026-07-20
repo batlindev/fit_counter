@@ -1,0 +1,14 @@
+# Minimalny config Supabase CLI. Pełny generuje `supabase init`.
+project_id = "fit-counter"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+
+[db]
+port = 54322
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"

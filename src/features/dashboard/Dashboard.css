@@ -1,0 +1,106 @@
+.dash__goal {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 1rem;
+}
+
+.dash__goal input {
+  width: 90px;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.dash__summary {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #eef5ee;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.dash__summary.over {
+  background: #fbeaea;
+  color: #b3261e;
+}
+
+.dash__add {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 1.5rem;
+  align-items: end;
+}
+
+.dash__add label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.8rem;
+  color: #444;
+}
+
+.dash__add select,
+.dash__add input {
+  padding: 0.45rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.dash__add button {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background: #2f7a3e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dash__add button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.dash__meal h2 {
+  font-size: 1rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.dash__entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 0.4rem;
+}
+
+.dash__entry-macros {
+  font-size: 0.78rem;
+  color: #666;
+}
+
+.dash__entry button {
+  border: none;
+  background: none;
+  color: #b3261e;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.dash__err {
+  color: #b3261e;
+}
